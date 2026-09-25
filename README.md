@@ -72,6 +72,17 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.23** — 2026-09-05
+  - A hiccup on our license server no longer locks you out. If the server is having a bad moment, Kernel now treats it like being offline and keeps working, instead of showing an activation screen for a key that's perfectly fine.
+  - Pressing Esc in the search box now actually closes it. Before, it closed and immediately reopened.
+  - Closing Settings hands the keyboard straight back to the terminal, so you can keep typing without clicking first.
+  - The maximize button now shows whether the window is maximized or not, and flips between maximize and restore.
+  - Smoother window-opacity slider, and lighter background license checks.
+
+**v1.0.22** — 2026-08-18
+  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
+  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
+
 **v1.0.21** — 2026-07-21
   - New installs now default to the clean Mono theme with the animated RGB border off. You can switch back to any theme (and turn the RGB border on) anytime in Settings → Appearance.
 
@@ -81,16 +92,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 **v1.0.19** — 2026-07-21
   - Fixed the big one: AI CLIs like Claude Code no longer redraw their welcome screen over and over into a stacked, garbled mess. Kernel now waits until you finish resizing the window before telling the shell its new size — so full-screen tools repaint once, cleanly, instead of dozens of times.
-
-**v1.0.18** — 2026-07-21
-  - Fixed rare graphics glitches on some PCs — smeared or repeating text, or old text bleeding through. Kernel now automatically switches to a rock-solid drawing mode if the GPU renderer misbehaves, and stays there.
-  - New setting (Appearance → Hardware acceleration) to turn GPU drawing off yourself if you ever see glitches — for instant, guaranteed-clean text.
-
-**v1.0.17** — 2026-07-09
-  - Two new themes: GitHub (clean dark) and Cursor Blue.
-  - A first-run welcome popup plus a new Getting Started tab in Settings, packed with quick tips and shortcuts (reopen it anytime).
-  - There's now always one empty line under the last row, and it's locked to the bottom of the window — no resize can ever push content past the frame.
-  - New installs now default to the Matrix theme with the animated RGB border on.
 
 Full history → **[kvrnl.io/changelog/kernel](https://kvrnl.io/changelog/kernel/)**
 
