@@ -71,6 +71,13 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.24** — 2026-09-25
+  - Brand-new activation screen with clear, step-by-step instructions for getting your free key. Each step has a button that takes you straight to the right page on kvrnl.io.
+  - New Paste button, and keys are tidied up for you. Extra spaces, line breaks or punctuation copied along with your key no longer cause a "key not found" error.
+  - Every activation message now tells you exactly what to do next, like releasing your key from another PC, with a button to get there.
+  - Tighter license protection. Kernel stays fully locked until it's activated, and an offline license can no longer be copied to another PC or stretched past its grace period.
+  - Opening Kernel again while the activation screen is up now brings that screen to the front, instead of seeming to do nothing.
+
 **v1.0.23** — 2026-09-05
   - A hiccup on our license server no longer locks you out. If the server is having a bad moment, Kernel now treats it like being offline and keeps working, instead of showing an activation screen for a key that's perfectly fine.
   - Pressing Esc in the search box now actually closes it. Before, it closed and immediately reopened.
@@ -88,9 +95,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v1.0.20** — 2026-07-21
   - AI CLIs now start up perfectly clean — the shell launches at its final size, so tools like Claude Code paint their welcome screen exactly once (no leftover duplicate).
   - Much smoother window resizing: dragging an edge or corner no longer looks buggy or glitchy. Kernel pauses its heavy per-frame link-underlining while you drag and does one clean pass the moment you let go.
-
-**v1.0.19** — 2026-07-21
-  - Fixed the big one: AI CLIs like Claude Code no longer redraw their welcome screen over and over into a stacked, garbled mess. Kernel now waits until you finish resizing the window before telling the shell its new size — so full-screen tools repaint once, cleanly, instead of dozens of times.
 
 Full history → **[kvrnl.io/changelog/kernel](https://kvrnl.io/changelog/kernel/)**
 
