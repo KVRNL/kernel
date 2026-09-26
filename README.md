@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.26** — 2026-09-25
+  - Kernel's routine license check now also says which version you're running and whether Kernel just started. That helps us see that updates are reaching everyone and spot misuse of license keys.
+  - Nothing you type or run in Kernel is ever sent. Only the license check itself.
+
 **v1.0.25** — 2026-09-25
   - Stronger tamper protection. Kernel now checks its own files every time it starts, and won't run if they've been modified.
   - Kernel can no longer be started in debugging mode, closing off one more way around activation.
@@ -92,9 +96,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v1.0.22** — 2026-08-18
   - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
   - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
-
-**v1.0.21** — 2026-07-21
-  - New installs now default to the clean Mono theme with the animated RGB border off. You can switch back to any theme (and turn the RGB border on) anytime in Settings → Appearance.
 
 Full history → **[kvrnl.io/changelog/kernel](https://kvrnl.io/changelog/kernel/)**
 
