@@ -71,6 +71,11 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.27** — 2026-09-26
+  - Kernel now shares basic usage stats with KVRNL to help us improve it: which shells and AI tools you start, which settings you change, your Windows version and screen setup, and any errors. It's linked to your KVRNL account.
+  - Never shared: anything you type or see in the terminal, file names, or folder paths.
+  - You can turn it off anytime in Settings, under App: "Share usage stats with KVRNL". Turning it off stops it right away.
+
 **v1.0.26** — 2026-09-25
   - Kernel's routine license check now also says which version you're running and whether Kernel just started. That helps us see that updates are reaching everyone and spot misuse of license keys.
   - Nothing you type or run in Kernel is ever sent. Only the license check itself.
@@ -92,10 +97,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Closing Settings hands the keyboard straight back to the terminal, so you can keep typing without clicking first.
   - The maximize button now shows whether the window is maximized or not, and flips between maximize and restore.
   - Smoother window-opacity slider, and lighter background license checks.
-
-**v1.0.22** — 2026-08-18
-  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
-  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
 
 Full history → **[kvrnl.io/changelog/kernel](https://kvrnl.io/changelog/kernel/)**
 
