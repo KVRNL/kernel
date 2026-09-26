@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.25** — 2026-09-25
+  - Stronger tamper protection. Kernel now checks its own files every time it starts, and won't run if they've been modified.
+  - Kernel can no longer be started in debugging mode, closing off one more way around activation.
+
 **v1.0.24** — 2026-09-25
   - Brand-new activation screen with clear, step-by-step instructions for getting your free key. Each step has a button that takes you straight to the right page on kvrnl.io.
   - New Paste button, and keys are tidied up for you. Extra spaces, line breaks or punctuation copied along with your key no longer cause a "key not found" error.
@@ -91,10 +95,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 **v1.0.21** — 2026-07-21
   - New installs now default to the clean Mono theme with the animated RGB border off. You can switch back to any theme (and turn the RGB border on) anytime in Settings → Appearance.
-
-**v1.0.20** — 2026-07-21
-  - AI CLIs now start up perfectly clean — the shell launches at its final size, so tools like Claude Code paint their welcome screen exactly once (no leftover duplicate).
-  - Much smoother window resizing: dragging an edge or corner no longer looks buggy or glitchy. Kernel pauses its heavy per-frame link-underlining while you drag and does one clean pass the moment you let go.
 
 Full history → **[kvrnl.io/changelog/kernel](https://kvrnl.io/changelog/kernel/)**
 
